@@ -1,3 +1,19 @@
-p {
-    color: blue;
+/* style.css */
+.botoes {
+    display: flex;
+    flex-direction: column;
+}
+
+.botoes button {
+    background-color: rgb(0, 21, 255);
+    color: white;
+    height: 30px;
+    width: 100px;
+    margin: 5px;
+}
+
+@media (max-width: 600px) {
+    .botoes button {
+        background-color: red;
+    }
 }
